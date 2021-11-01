@@ -10,6 +10,11 @@
 //   src: url("/fonts/Changa_VariableFont.otf");
 // }
 
+html,
+body {
+  width: 100% !important;
+}
+
 * {
   font-family: "Poppins", sans-serif !important;
 }
@@ -63,7 +68,7 @@ ul {
   background-image: url("/banner.jpg");
   background-position: 65% 65%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 424px;
 }
 
 .titulo-sessao {
@@ -91,8 +96,7 @@ ul {
   width: 100%;
   background-image: url("/banner2.jpg");
   background-position: 65% 65%;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw 424px;
 }
 
 .logo-apagado {
@@ -136,3 +140,15 @@ ul {
   color: #303030;
   font-weight: bold;
 }
+
+// @media only screen and (max-width: 720px) {
+//   .banner2 {
+//     margin-top: 2vh;
+//     height: 424px;
+//     width: 100%;
+//     background-image: url("/banner2.jpg");
+//     background-position: 65% 65%;
+//     background-repeat: no-repeat;
+//     background-size: fit-content;
+//   }
+// }

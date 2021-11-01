@@ -8,10 +8,15 @@ import {
 } from "react-icons/ai";
 import { BsHandbag } from "react-icons/bs";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Ribeirania</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="bg-cinza">
         <div className="container">
           <div className="row py-1">
