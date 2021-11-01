@@ -333,7 +333,7 @@ export default function Home() {
               <img style={{ width: 200, height: 125 }} src="logo.png" />
             </div>
 
-            <div className="col-4 col-md-3">
+            <div className="col-6 col-md-3">
               <ul className="list-unstyled">
                 <li className="texto-vermelho-footer mb-2">Institucional</li>
                 <li className="mb-2">A Empresa</li>
@@ -342,7 +342,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="col-4 col-md-3">
+            <div className="col-6 col-md-3">
               <ul className="list-unstyled ">
                 <li className="texto-vermelho-footer mb-2">Contato</li>
                 <li className="mb-2">SAC</li>
@@ -351,7 +351,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="col-4 col-md-3">
+            <div className="col-12 col-md-3 mt-5 mt-md-0">
               <div className="texto-vermelho-footer mb-2">Midias sociais</div>
               <div className="d-flex">
                 <div className="mr-4">
