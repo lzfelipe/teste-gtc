@@ -106,10 +106,10 @@ export default function Home() {
             </span>
 
             <div className="row justify-content-center justify-content-md-between">
-              <CardProduto />
-              <CardProduto />
-              <CardProduto />
-              <CardProduto />
+              <CardProduto prod="conserva" />
+              <CardProduto prod="conserva" />
+              <CardProduto prod="conserva" />
+              <CardProduto prod="conserva" />
             </div>
           </div>
 
@@ -125,10 +125,10 @@ export default function Home() {
             </span>
 
             <div className="row justify-content-center justify-content-md-between">
-              <CardProduto />
-              <CardProduto />
-              <CardProduto />
-              <CardProduto />
+              <CardProduto prod="carne" />
+              <CardProduto prod="carne" />
+              <CardProduto prod="carne" />
+              <CardProduto prod="carne" />
             </div>
           </div>
         </section>
