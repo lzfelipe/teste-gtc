@@ -26,16 +26,36 @@ export default function Home() {
               </span>
               Frete GRÁTIS nas compras acima de R$100,00
             </div>
-            <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center mt-3 mt-md-0">
-              <div className="col-8 ">
-                <ul className="d-flex flex-wrap  list-unstyled ">
+            <div className="col-12 col-md-3 d-flex justify-content-center justify-content-md-start align-items-center mt-2 mt-md-0">
+              <ul className="d-flex flex-wrap list-unstyled justify-content-center justify-content-md-start">
+                <li className="mr-2">Home</li>
+                <li className="mr-2">Sobre nós</li>
+                <li className="mr-2">Contato</li>
+              </ul>
+            </div>
+            <div className="col-12 col-md-3 d-flex justify-content-center justify-content-md-start align-items-center mt-2 mt-md-0">
+              <ul className="d-flex flex-nowrap list-unstyled justify-content-center justify-content-md-start">
+                <li style={{ marginRight: 35 }}>
+                  <AiOutlineInstagram size={20} />
+                </li>
+                <li style={{ marginRight: 35 }}>
+                  <AiOutlineFacebook size={20} />
+                </li>
+                <li style={{ marginRight: 35 }}>
+                  <AiOutlineWhatsApp size={20} />
+                </li>
+              </ul>
+            </div>
+            {/* <div className="col-12 col-md-6 justify-content-center justify-content-md-start align-items-center mt-3 mt-md-0">
+              <div className="col-12 col-md-6 ">
+                <ul className="d-flex flex-wrap list-unstyled justify-content-center justify-content-md-start">
                   <li className="mr-2">Home</li>
                   <li className="mr-2">Sobre nós</li>
                   <li className="mr-2">Contato</li>
                 </ul>
               </div>
-              <div className="col-3 ">
-                <ul className="d-flex flex-nowrap list-unstyled">
+              <div className="col-12 col-md-6 ">
+                <ul className="d-flex flex-nowrap list-unstyled justify-content-center justify-content-md-start">
                   <li style={{ marginRight: 35 }}>
                     <AiOutlineInstagram size={20} />
                   </li>
@@ -47,7 +67,7 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
