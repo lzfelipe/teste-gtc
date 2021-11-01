@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// @font-face {
+//   font-family: "Changas";
+//   src: url("/fonts/Changa_VariableFont.otf");
+// }
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cookie", sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.mr-1 {
+  margin-right: ($spacer * 0.25) !important;
+}
+.mr-2 {
+  margin-right: ($spacer * 0.5) !important;
+}
+.mr-3 {
+  margin-right: ($spacer * 0.75) !important;
+}
+.mr-4 {
+  margin-right: ($spacer * 1) !important;
+}
+
+ul {
+  transform: translateY(30%);
+}
+
+.btn-carrinho {
+}
+
+.btn-vermelho {
+  border-radius: 50px;
+  padding: 5px 20px 5px 20px;
+  background-color: #e91223;
+  border: none;
+  color: white;
+}
+
+.banner {
+  margin-top: 2vh;
+  height: 424px;
+  width: 100%;
+  background-image: url("/banner.jpg");
+  background-position: 65% 65%;
+}
+
+.titulo-sessao {
+  color: #e91223;
+  font-size: 3.3em;
+}
+
+.linha-sessao {
+  width: 72%;
+  color: #faba2c;
+  height: 2;
+  opacity: 1;
+}
+
+.linha-footer {
+  width: 100%;
+  color: #ecd8d9;
+  height: 2;
+  opacity: 1;
+}
+
+.banner2 {
+  margin-top: 2vh;
+  height: 424px;
+  width: 100%;
+  background-image: url("/banner2.jpg");
+  background-position: 65% 65%;
+}
+
+.logo-apagado {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.bg-cinza {
+  background-color: #eeeeee;
+}
+
+.text-cinza {
+  color: #a1a1a1;
+}
+
+.texto-vermelho-footer {
+  color: #e91223;
+  font-weight: bold;
+}
